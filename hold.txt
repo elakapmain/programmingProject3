@@ -1,0 +1,19 @@
+import {ref, onMounted, watch} from 'vue'
+
+  const divinations = ref([])
+
+  const loadDivinations = () => {
+    console.log("Mounted.")
+
+    fetch("")
+    .then((res) => res.text())
+    .then((text) => {
+      console.log(text)
+    })
+    .catch((e) => console.error(e));
+
+  }
+
+  onMounted( () => {
+    loadDivinations()
+  })
