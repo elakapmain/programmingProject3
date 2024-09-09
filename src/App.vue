@@ -11,6 +11,8 @@
     discoveredArray.value[random] = divinationArray.value[random]
 
     divined.value = divinationArray.value[random]
+
+    //  TO-DO: Handle duplicates
   }
 
   const loadDivinations = () => {
