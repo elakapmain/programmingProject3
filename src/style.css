@@ -1,3 +1,16 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
-  background-color: aliceblue;
+  background-image: linear-gradient(rgb(129, 196, 255), rgb(216, 180, 246));
+  background-attachment: fixed;
+}
+
+section {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  background-color: white;
+
+  border-radius: 16px;
 }
