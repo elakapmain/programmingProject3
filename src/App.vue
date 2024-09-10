@@ -16,7 +16,7 @@
   }
 
   const loadDivinations = () => {
-    fetch('dist/assets/divinations.txt').then(getDivinations).then(processData)
+    fetch('/programmingProject3/assets/divinations.txt').then(getDivinations).then(processData)
   }
 
   const getDivinations = (divinationArray) => {
